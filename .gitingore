@@ -1,0 +1,18 @@
+# --- Go binaries
+*.exe
+*.out
+
+# --- SQLite database
+tracker.db 
+*.db
+
+# --- IDE
+.vscode
+
+# --- Logs
+*.log
+
+# --- OS files
+.DS_Store
+Thumbs.db
+
