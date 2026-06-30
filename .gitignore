@@ -1,10 +1,14 @@
 # --- Go binaries
 *.exe
 *.out
+*__debug_bin
+/test_bin
 
 # --- SQLite database
 tracker.db 
 *.db
+*.sqlite 
+*.sqlite3
 
 # --- IDE
 .vscode
@@ -15,4 +19,3 @@ tracker.db
 # --- OS files
 .DS_Store
 Thumbs.db
-
