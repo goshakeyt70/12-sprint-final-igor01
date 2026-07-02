@@ -1,0 +1,24 @@
+# Базовые исключения
+.git
+.gitignore
+*.exe
+
+# Локальные БД SQLite
+tracker.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Локально скомпилированные бинарники linux/macOS
+*__debug_bin
+/test_bin
+
+# Github Actions и VS Code
+.github/ 
+
+# Локальные настройки редактора VS Code
+.vscode/
+
+# Логи и временные файлы
+*.log
+tmp/

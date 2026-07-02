@@ -3,6 +3,8 @@ name: Sprint 12 CI/CD Pipeline for Go
 on:
     push:
         branches: [ "*" ]
+        path-ignore:
+          - 'README.md'
 
 jobs:
     test:
